@@ -59,7 +59,7 @@ h2{
     margin: 2rem 0rem;
     width: 100%;
 }
-..question{
+.question{
     padding: 3rem 0rem;
     cursor : pointer;
 }
