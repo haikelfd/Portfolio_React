@@ -33,7 +33,7 @@ padding : 1rem 10rem;
 background: #282828;
 a {
     color: white;
-    text-text-decoration: none;
+    text-decoration: none;
 }
 ul{
     display: flex;
