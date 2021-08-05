@@ -16,14 +16,14 @@ const OurWork = () => {
                The Athlete
             </h2>
             <div className="line"></div>
-            <Link>
+            <Link to="/Work/the-athlete">
             <img src={athlete} alt="athlete" /></Link>
             </Movie>
             <Movie>
             <h2> The Racer
             </h2>
             <div className="line"></div>
-            <Link>
+            <Link to="/Work/the-racer">
             <img src={theracer} alt="theracer" />
             </Link>
             </Movie>
@@ -31,7 +31,7 @@ const OurWork = () => {
             <h2> Good Times
             </h2>
             <div className="line"></div>
-            <Link>
+            <Link to="/Work/good-times">
             <img src={goodtimes} alt="goodtimes" />
             </Link>
             </Movie>
