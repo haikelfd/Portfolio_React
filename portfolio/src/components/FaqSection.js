@@ -1,45 +1,52 @@
-import React from 'react';
+import React ,{useState} from 'react';
 import styled from 'styled-components';
 import {About} from '../styles';
+import Toggle from './Toggle';
 
 
 const FaqSection =() => {
+    const [faqToggle, setFaqToggle] = useState(false);
     return (
         <Faq>
             <h2> Any questions<span> FAQ</span></h2>
-            <div className="question">
-            <h4> How Do I Start?</h4>
+            <Toggle title='How Do I Start'>
+            <div onClick={()=> setFaqToggle(!faqToggle)}className="question">
             <div className ="answer">
             <p>Lorem ipsum, dolor sit amet consectetur aut suscipit dignissimos omnis totam deleniti, impedit illum eos of</p>
             <p>Lorem ipsum, dolor sit amet consectetur aut suscipit dignissimos omnis totam </p>
         </div>
         <div className='faq-line'></div>
-
         </div>
+        </Toggle>
+        <Toggle title='Daily Schedule'>
         <div className="question">
-            <h4> Daily schedule</h4>
+             <div className ="answer">
+            <p>Lorem ipsum, dolor sit amet consectetur aut suscipit dignissimos omnis totam deleniti, impedit illum eos of</p>
+            <p>Lorem ipsum, dolor sit amet consectetur aut suscipit dignissimos omnis totam </p>
+        </div>
+        <div className='faq-line'>
+        </div>
+        </div>
+        </Toggle> 
+        <Toggle title="Different Payment Methods">
+        <div className="question">
+            <div className ="answer">
+            <p>Lorem ipsum, dolor sit amet consectetur aut suscipit dignissimos omnis totam deleniti, impedit illum eos of</p>
+            <p>Lorem ipsum, dolor sit amet consectetur aut suscipit dignissimos omnis totam </p>
+        </div>
+        <div className='faq-line'>
+        </div>
+        </div>   
+        </Toggle>
+        <Toggle title='What product do you offre'>
+        <div className="question">
             <div className ="answer">
             <p>Lorem ipsum, dolor sit amet consectetur aut suscipit dignissimos omnis totam deleniti, impedit illum eos of</p>
             <p>Lorem ipsum, dolor sit amet consectetur aut suscipit dignissimos omnis totam </p>
         </div>
         <div className='faq-line'></div>
-        </div>   <div className="question">
-            <h4> Different Payment Methods</h4>
-            <div className ="answer">
-            <p>Lorem ipsum, dolor sit amet consectetur aut suscipit dignissimos omnis totam deleniti, impedit illum eos of</p>
-            <p>Lorem ipsum, dolor sit amet consectetur aut suscipit dignissimos omnis totam </p>
         </div>
-        <div className='faq-line'></div>
-
-        </div>   <div className="question">
-            <h4> What product do you offre</h4>
-            <div className ="answer">
-            <p>Lorem ipsum, dolor sit amet consectetur aut suscipit dignissimos omnis totam deleniti, impedit illum eos of</p>
-            <p>Lorem ipsum, dolor sit amet consectetur aut suscipit dignissimos omnis totam </p>
-        </div>
-        <div className='faq-line'></div>
-
-        </div>
+        </Toggle>
         </Faq>
 
     );
