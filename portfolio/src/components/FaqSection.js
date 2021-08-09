@@ -31,8 +31,8 @@ const FaqSection =() => {
         <Toggle title="Different Payment Methods">
         <div className="question">
             <div className ="answer">
-            <p>Lorem ipsum, dolor sit amet consectetur aut suscipit dignissimos omnis totam deleniti, impedit illum eos of</p>
-            <p>Lorem ipsum, dolor sit amet consectetur aut suscipit dignissimos omnis totam </p>
+            <p>Lorem ipsum, dolor sit amejkjlksft consectetur aut suscipit dignissimos omnis totam deleniti, impedit illum eos of</p>
+            <p>Lorem ipsum, dolor sit amtesxtet consectetur aut suscipit dignissimos omnis totam </p>
         </div>
         <div className='faq-line'>
         </div>
@@ -41,8 +41,8 @@ const FaqSection =() => {
         <Toggle title='What product do you offre'>
         <div className="question">
             <div className ="answer">
-            <p>Lorem ipsum, dolor sit amet consectetur aut suscipit dignissimos omnis totam deleniti, impedit illum eos of</p>
-            <p>Lorem ipsum, dolor sit amet consectetur aut suscipit dignissimos omnis totam </p>
+            <p>Lorem ipsum, yall yallla test dolor sit amet consectetur aut suscipit dignissimos omnis totam deleniti, impedit illum eos of</p>
+            <p>Lorem ipsum, dolor sit lkjlkjlk ddld lkf amet consectetur aut suscipit dignissimos omnis totam </p>
         </div>
         <div className='faq-line'></div>
         </div>
